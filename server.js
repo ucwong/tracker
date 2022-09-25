@@ -94,7 +94,7 @@ const server = new Server({
 
         // This example only allows one torrent.
 
-        const allowed = true//(infoHash === 'aaa67059ed6bd08362da625b3ae77f6f4a075aaa')
+        const allowed = (params.peer_id.startsWith('636f727465'))
         if (allowed) {
             // If the callback is passed `null`, the torrent will be allowed.
             cb(null)
