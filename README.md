@@ -1,5 +1,5 @@
 ```
-https://github.com/ucwong/tracker.git
+git clone https://github.com/ucwong/tracker.git
 ```
 ```
 cd tracker
