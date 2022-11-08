@@ -24,6 +24,7 @@
   "homepage": "https://github.com/ucwong/tracker#readme",
   "dependencies": {
     "bittorrent-tracker": "^9.19.0",
-    "ignore": "^5.2.0"
+    "ignore": "^5.2.0",
+    "minimist": "^1.2.7"
   }
 }
