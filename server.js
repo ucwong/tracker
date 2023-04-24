@@ -93,7 +93,15 @@ const server = new Server({
         // are available in `params`.
 
         // This example only allows one torrent.
-        const allowed = params.peer_id.startsWith('2d434f4c4130') || params.peer_id.startsWith('2d4754303030332d')
+	// 2d434f4c413037 -COLA07
+	    // 2d -
+	    // 43 C
+	    // 4f O
+	    // 4c L
+	    // 41 A
+	    // 30 0
+	    // 37 7
+	const allowed = params.peer_id.startsWith('2d434f4c41') || params.peer_id.startsWith('2d4754303030332d') // COLA
         if (allowed) {
             // If the callback is passed `null`, the torrent will be allowed.
             cb(null)
