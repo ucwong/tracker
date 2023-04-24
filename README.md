@@ -21,5 +21,5 @@ npm install minimist
 npm install bittorrent-tracker
 ```
 ```
-./server.js
+./server.js --port 5008 --udp -q --interval 300000
 ```
